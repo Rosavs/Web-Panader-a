@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+		<title>
+		resultado
+		</title>
+
+		<link rel="shortcut icon" href="images/espiga3fav.jpg">
+
+		<style>
+		</style>
+		<link rel="stylesheet" type="text/css" href="css/resultado.css">
+
+		<nav>
+		<div class="menurrss">	
+			
+			<div class="transp">
+ 			</div> 
+			¡Síguenos!
+			
+			<div class="transp1">  
+			</div>
+
+			<a href="https://facebook.com/" target="_blank">
+			<img src="images/f.png" width="30px" height="30px" alt="icono facebook"> </a>
+			<a href="https://instagram.com/" target="_blank">
+			<img src="images/i.png" width="40px" height="40px" alt="icono instagram"> </a>
+			<a href="https://twitter.com/" target="_blank">
+			<img src="images/t1.png" width="32px" height="32px" alt="icono twitter"> </a>
+			<a href="https://youtube.com/" target="_blank">
+			<img src="images/y.png" width="30px" height="30px" alt="icono youtube"> </a>
+			<a href="https://tiktok.com/" target="_blank">
+			<img src="images/tt.png" width="40px" height="40px" alt="icono tiktok"> </a>
+
+		</div>	
+		</nav>
+
+	</head>
+	
+	<body>
+
+	<header>
+		<div class="banner">
+			
+			<img src="images/banner3.png" width="805px" height="300px" alt="Banner decorativo espigas">
+			
+			<a class="a" href="index.html"><img src="images/logopn.jpg" width="275px" height="280px" alt="Banner publicitario de nuestra marca"></a>
+			
+			<img src="images/banner3.png" width="805px" height="300px" alt="Banner decorativo espigas">
+		
+		</div>
+	 </header> 
+
+	 
+	<body>
+		<section>
+		<div class="contenidoresultado">
+			<div class="textoresultado" id="resultado">
+				<b>Datos de Pedido</b><br/><br/>
+			</div>
+
+
+			<script>
+		
+			const result1 = document.getElementById("resultado");
+			const searchParams = new URLSearchParams(window.location.search);
+				
+			searchParams.forEach((value,key) => {
+			
+				result1.append( key + ":" + " " + value)
+
+				result1.append(document.createElement('br'))
+			});
+
+			</script>
+
+			<script type="text/javascript" src="js/resultado.js">
+			</script>	
+
+			<br/><br/>
+			<input class="boton3" type="button" value="confirmar" onclick="confirmar()"><br/><br/><br/>
+			<input class="boton4" type="button" value="volver a pedidos" onclick="volver()">
+			<input class="boton5" type="button" value="volver a la página principal" onclick="inicio()">
+
+		</div>
+
+		<div id= result1></div>
+		</section>
+	</body>
+
+</html>
