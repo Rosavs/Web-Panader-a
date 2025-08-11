@@ -1,0 +1,78 @@
+
+		.menurrss{
+			background-color: bisque;
+			width: 100%;
+			height: 50px;
+				display: flex;
+				justify-content: left;
+				align-items: center;
+				color: darkorange;
+		}
+		
+		.transp{
+			background-color: transparent;
+			width: 70%;
+			height: 50px;
+		}
+
+		.transp1{
+			background-color: transparent;
+			width: 20px;
+			height: 50px;
+		}
+
+		.banner{
+			background-color: lightyellow;
+			width: 100%;
+			height: 275px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+		}
+
+		.a{
+			text-decoration: none;
+			color: brown ;
+		}
+
+		.contenidoresultado{
+			background-color: rgb(255,231,147);
+			width: 100%;
+			height: 500px;
+				justify-content: center;
+				align-items: center;
+				text-align: justify;
+				padding-top: 60px;
+				padding-left: 60px;
+		}
+
+		.textoresultado{
+			color: chocolate;
+			padding-left: 30px;
+			padding-right: 60px;
+			padding-bottom: 10px;
+		}
+
+		.boton3{
+			background-color: lightgreen;
+			text-decoration: none;
+			border: 3px solid chocolate;
+			color: green;
+			border-radius: 8px;
+		}
+
+		.boton4{
+			background-color: brown;
+			text-decoration: none;
+			border: 3px solid chocolate;
+			color: bisque;
+			border-radius: 8px;
+		}
+
+		.boton5{
+			background-color: brown;
+			text-decoration: none;
+			border: 3px solid chocolate;
+			color: bisque;
+			border-radius: 8px;
+		}

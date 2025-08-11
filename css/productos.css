@@ -1,0 +1,150 @@
+
+		.menurrss{
+			background-color: bisque;
+			width: 100%;
+			height: 50px;
+				display: flex;
+				justify-content: left;
+				align-items: center;
+				color: darkorange;
+		}
+
+		.transp{
+			background-color: transparent;
+			width: 70%;
+			height: 50px;
+		}
+
+		.transp1{
+			background-color: transparent;
+			width: 20px;
+			height: 50px;
+				
+		}
+
+		.banner{
+			background-color: lightyellow;
+			width: 100%;
+			height: 275px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+		}
+
+		.opcionesmenu{
+			background-color: lightcoral;
+			width: 100%;
+			height: 55px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+		}
+
+		.a{
+			text-decoration: none;
+			color: brown ;
+		}
+		
+		.titulo{
+			background-color: lightsalmon;
+			width: 100%;
+			height: 100px;
+			display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+		}
+		
+		.titulop{
+			background-color: bisque;
+			width: 100%;
+			height: 30px;
+			display: flex;
+				justify-content: left;
+				align-items: center;
+				text-align: center;
+				padding-left: 315px;
+		}
+
+		.ContenidoWebproductos{
+			background-color: white;
+			width:100%;
+			height: 140px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: justify;
+				padding-bottom: 60px;
+
+		}
+
+		.producto{
+			width: 100%;
+			height: 100%;
+			background-color: transparent;
+			display: flex ;
+			padding-left: 30px;
+			color: brown;
+			text-align: justify;
+		}
+	
+		.separacion1{
+			background-color: transparent;
+			width: 100px;
+			height: 100%;
+		}
+
+		
+		.menupie{
+			background-color: bisque;
+			width: 100%;
+			height:130px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+		}
+
+		.contacto{
+			background-color: transparent;
+			width: 350px;
+			height: 120px;
+				justify-content: center;
+				align-items: center;
+		}
+
+		.b{
+			text-decoration: none;
+			color: black ;
+		}
+
+		.transpie{
+			background-color: transparent;
+			width: 10%;
+			height: 50px;
+		}
+
+		.loc{
+			background-color: transparent;
+			width: 350px;
+			height: 120px;
+				justify-content: center;
+				align-items: center;
+		}
+
+		.horario{
+			background-color: transparent;
+			width:350px;
+			height: 120px;
+				justify-content: center;
+				align-items: right;
+		}
+
+		.final{
+			background-color: bisque;
+			width: 100%;
+			height:50px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+		}
